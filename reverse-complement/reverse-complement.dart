@@ -125,7 +125,7 @@ init(ostr) {
   scanner = new Scanner(ostr);
 }
 main() {
-  bool TEST_MODE = true;
+  bool TEST_MODE = false;
   
   var w = new Stopwatch()..start();
   onData(list) => scanner.add(list);
